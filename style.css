@@ -1,0 +1,12 @@
+[dir] .nx-theme-styles .nx-theme-form { 
+    background-color: #84caf5; 
+}
+
+[dir] .nx-theme-styles .custom-blue input {
+    background-color: #0055ff;
+    color: white;
+}
+
+[dir] .nx-theme-styles .custom-red input {
+    background-color: red;
+}

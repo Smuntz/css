@@ -1,13 +1,14 @@
+/* Form Background */
 [dir] .nx-theme-styles .nx-theme-form { 
-    background: #ecf0f3;
+	background: #ecf0f3;
     border: 2px solid white;  
     border-radius: 10px;
 }
-
+/* Form label */
 [dir] .nx-theme-styles .nx-theme-form .nx-theme-label-1 { 
     color: black;
 }
-
+/* Text Inout controls */
 [dir] .nx-theme-styles .nx-theme-form .nx-theme-input-1 { 
   background: #ecf0f3;
   padding: 10px;
@@ -20,23 +21,7 @@
   caret-color: red;
 }
 
-[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-1 { 
-  color: white;
-  margin-top: 20px;
-  background: #1DA1F2;
-  height: 40px;
-  border-radius: 20px;
-  cursor: pointer;
-  font-weight: 900;
-  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
-  transition: 0.5s;
-  border: 0px;
-}
-
-[dir] .nx-theme-styles .nx-theme-form .nx-theme-button-1:hover {
-  box-shadow: none;
-}
-
+/* Buttons */
 [dir] .nx-theme-styles .nx-theme-form .btn { 
   color: white;
   margin-top: 20px;
@@ -49,14 +34,16 @@
   transition: 0.5s;
   border: 0px;
 }
+/* Buttons */
 [dir] .nx-theme-styles .nx-theme-form .btn:hover {
   box-shadow: none;
 }
 
+/* input placeholder colour */
 [dir] .nx-theme-styles .nx-theme-form .nx-theme-input-1::placeholder {
   color: gray;
 }
-
+/* drop down type controls */
 [dir] .nx-theme-styles .nx-theme-form ntx-choice ntx-simple-select-single, .nx-theme-styles .nx-theme-form ntx-multichoice ntx-simple-select-multi, [dir] .nx-theme-styles .nx-theme-form ntx-people-picker .ntx-simple-select, [dir] .nx-theme-styles .nx-theme-form ntx-geolocation .nx-theme-input-1, [dir] .nx-theme-styles .nx-theme-form ntx-data-lookup ntx-simple-select-single-async {
   background: #ecf0f3;
   padding: 10px;
@@ -68,24 +55,25 @@
   border: 0px;
 }
 
+/* Dropdown input selectors */
 [dir] .nx-theme-styles .nx-theme-form ntx-choice ntx-simple-select-single .ng-select, [dir] .nx-theme-styles .nx-theme-form ntx-multichoice ntx-simple-select-multi .ng-select, [dir] .nx-theme-styles .nx-theme-form ntx-people-picker .ntx-simple-select ng-select, [dir] .nx-theme-styles .nx-theme-form ntx-people-picker ng-dropdown-panel div, [dir] .nx-theme-styles .nx-theme-form ntx-data-lookup .nx-theme-ng-select-1 {
   background: #ecf0f3;
   border: 0px;
 }
+/* Dropdown panel */
 [dir] .nx-theme-styles .nx-theme-form ntx-choice .ng-dropdown-panel, [dir] .nx-theme-styles .nx-theme-form ntx-multichoice .ng-dropdown-panel, [dir] .nx-theme-styles .nx-theme-form ntx-data-lookup ng-dropdown-panel {
   border: 1px #ecf0f3;
   border-radius: 20px;
 }
 
+/* fill in for choice panels etc */
 [dir] .nx-theme-styles .nx-theme-form ntx-choice .ng-dropdown-panel-items .ng-option , [dir] .nx-theme-styles .nx-theme-form ntx-multichoice .ng-dropdown-panel-items .ng-option, [dir] .nx-theme-styles .nx-theme-form ntx-group div, [dir] .nx-theme-styles .nx-theme-form ntx-currency button, [dir] .nx-theme-styles .nx-theme-form ntx-datetime button, [dir] .nx-theme-styles .nx-theme-form ntx-address .nx-address-input-panel, [dir] .nx-theme-styles .nx-theme-form ntx-data-lookup .ng-dropdown-panel-items div, [dir] .nx-theme-styles .nx-theme-form .nx-repeating-section-container, [dir] .nx-theme-styles .nx-theme-form .nx-repeating-section-container header  {
   background: #ecf0f3;
 }
-
+/* optional to remove some CSS */
 [dir] .nx-theme-styles .nx-theme-form ntx-people-picker .nx-theme-input-1, [dir] .nx-theme-styles .nx-theme-form ntx-geolocation .input-group-append {
 border-radius: 0px;
 box-shadow: none;
 }
 
-[dir] .nx-theme-styles .nx-theme-form ntx-people-picker ntx-icon {
-    width: 50px;
-}
+
